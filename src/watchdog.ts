@@ -29,6 +29,8 @@ class SatisfactoryWatchdog {
 
     updateField<F extends keyof (State), T extends State[F]>(field: F, newValue: T) {
         if (this.state[field] === undefined) {
+            console.info(`- ${field}: ${newValue}`);
+
             // Save but do not trigger change behavior
             this.state[field] = newValue;
             return false;
