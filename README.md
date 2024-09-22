@@ -1,4 +1,4 @@
-# Satisfactory Discord Bot
+# Satisfactory Server Discord Bot
 
 A simple Discord bot that uses the new Satisfactory dedicated server API to keep track of the server state and send a message whenever someone joins or leaves the game.
 
